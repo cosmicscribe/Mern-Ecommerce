@@ -2,7 +2,6 @@
 # 🛍️ MERN E-Commerce Project
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 A **MERN-based E-commerce web application** developed as part of our **Industrial Training Project**.  
 The project provides a complete shopping experience for customers along with an admin dashboard for management.
@@ -108,6 +107,8 @@ npm run dev
 
 #### 💳 Payment Mode
 <img src="https://github.com/user-attachments/assets/7ed04cde-5a86-44df-a9e2-b3803d2df156" width="800"/>
+
+
 
 #### 👤 Login / Signup
 <img src="https://github.com/user-attachments/assets/f5d26ba5-0856-476f-8212-2873872e9ad8" width="800"/>
