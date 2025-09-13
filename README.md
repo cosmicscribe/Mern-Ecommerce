@@ -136,30 +136,7 @@ npm run dev
 ![Admin Orders Page 2](screenshots/admin-orders-2.png)
 
 #### Add Items
-## 📸 Screenshots
-
-### 🖥️ Admin Panel
-
-#### View Orders
-![Admin Orders Page 1](screenshots/admin-orders-1.png)
-![Admin Orders Page 2](screenshots/admin-orders-2.png)
-
-#### Add Items
-## 📸 Screenshots
-
-### 🖥️ Admin Panel
-
-#### View Orders
-![Admin Orders Page 2](screenshots/admin-orders-2.png)
-
-#### Add Items
 ![Admin Add Items Page](screenshots/admin-add-items.png)
-
-> (You can add more screenshots here for the user frontend as well.)
-
-
-> (You can add more screenshots here for the user frontend as well.)
-
 
 > (You can add more screenshots here for the user frontend as well.)
 
