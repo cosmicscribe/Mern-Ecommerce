@@ -1,47 +1,34 @@
 
 # 🛍️ MERN E-Commerce Project
 
-A full-stack **E-commerce web application** built using the **MERN stack (MongoDB, Express.js, React, Node.js)**.  
-This project includes a **customer-facing store**, a **backend REST API**, and an **admin dashboard** for managing products, orders, and users.
+![MERN Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+A **MERN-based E-commerce web application** developed as part of our **Industrial Training Project**.  
+The project provides a complete shopping experience for customers along with an admin dashboard for management.
 
 ---
 
 ## 🚀 Features
 
-### Customer Frontend
-- User authentication (login/signup with JWT)
-- Product browsing and searching
-- Shopping cart functionality
-- Order placement and checkout
+### Customer Side
+- User registration and login
+- Browse and search products
+- Add products to cart
+- Place orders and checkout
 
-### Admin Dashboard
-- Secure admin login
+### Admin Side
+- Admin login
 - Manage products (add, edit, delete)
-- View and process orders
+- View customer orders
 - Manage users
-
-### Backend (API)
-- RESTful API using Express.js
-- MongoDB for data storage
-- Cloudinary for image upload
-- JWT authentication and authorization
-- Middleware for security and request handling
 
 ---
 
 ## 🛠️ Tech Stack
-
-**Frontend (User & Admin)**
-- React.js (Vite for admin, CRA/Vite for frontend)
-- Tailwind CSS
-- Axios
-
-**Backend**
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- Cloudinary
-- JWT Authentication
+- **Frontend** → React.js  
+- **Backend** → Node.js + Express.js  
+- **Database** → MongoDB  
 
 ---
 
@@ -49,62 +36,39 @@ This project includes a **customer-facing store**, a **backend REST API**, and a
 
 ```
 Mern-Ecommerce-master/
-│── e-commerce/
-│   ├── frontend/        # Customer-facing React app
-│   ├── backend/         # Node.js + Express API
-│   ├── admin/           # Admin Dashboard (React + Tailwind + Vite)
-│   └── ...
+│── frontend/        # Customer-facing React app
+│── backend/         # Node.js + Express API
+│── admin/           # Admin Dashboard (React)
 ```
 
 ---
 
 ## ⚡ Installation & Setup
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/Mern-Ecommerce.git
-cd Mern-Ecommerce-master/e-commerce
+cd Mern-Ecommerce-master
 ```
 
-### 2️⃣ Backend Setup
+2️⃣ Install Dependencies  
 ```bash
 cd backend
 npm install
-```
-Create a `.env` file in `/backend` with the following:
-```
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-```
-Run backend server:
-```bash
 npm start
 ```
 
-### 3️⃣ Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-### 4️⃣ Admin Dashboard Setup
 ```bash
 cd admin
 npm install
 npm run dev
 ```
-
----
-
-## 🌍 Deployment
-
-- **Frontend & Admin** → Vercel / Netlify  
-- **Backend** → Render / Vercel / Railway / Heroku  
-- **Database** → MongoDB Atlas  
 
 ---
 
@@ -118,33 +82,37 @@ npm run dev
 
 ---
 
-## 📚 References & Resources
-
-- [GeeksforGeeks (GFG)](https://www.geeksforgeeks.org/)  
-- [YouTube Tutorials](https://www.youtube.com/)  
-- [Cloudinary Documentation](https://cloudinary.com/documentation)  
-- [OpenAI / ChatGPT](https://openai.com/chatgpt)  
-
----
-
 ## 📸 Screenshots
 
 ### 🖥️ Admin Panel
-
 #### View Orders
-<img width="1897" height="867" alt="Image" src="https://github.com/user-attachments/assets/6ca51ca7-87b0-4f64-94da-80e634c6d52e" />
-#### List Items
-<img width="1896" height="866" alt="Image" src="https://github.com/user-attachments/assets/40f01dd3-83f4-47d0-aa1b-06aaee3deb15" />
-#### Add Items
-<img width="1893" height="867" alt="Image" src="https://github.com/user-attachments/assets/5c1002df-6112-403c-8cca-fbe10d55af0c" />
+<img src="https://github.com/user-attachments/assets/6ca51ca7-87b0-4f64-94da-80e634c6d52e" width="800"/>
 
+#### List Items
+<img src="https://github.com/user-attachments/assets/40f01dd3-83f4-47d0-aa1b-06aaee3deb15" width="800"/>
+
+#### Add Items
+<img src="https://github.com/user-attachments/assets/5c1002df-6112-403c-8cca-fbe10d55af0c" width="800"/>
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+### 🌐 Website Interface
+#### 🏠 Home Page
+<img src="https://github.com/user-attachments/assets/b15bfb4e-2606-4aff-aba6-58e3344797b8" width="800"/>
+
+#### 📄 Product Details
+<img src="https://github.com/user-attachments/assets/f7b34524-f10e-4c02-bee2-c8d7456501cb" width="800"/>
+
+#### 🛍️ Shopping Cart
+<img src="https://github.com/user-attachments/assets/7389a86a-cc18-4aca-aa9f-066e259b3657" width="800"/>
+
+#### 💳 Payment Mode
+<img src="https://github.com/user-attachments/assets/7ed04cde-5a86-44df-a9e2-b3803d2df156" width="800"/>
+
+#### 👤 Login / Signup
+<img src="https://github.com/user-attachments/assets/f5d26ba5-0856-476f-8212-2873872e9ad8" width="800"/>
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
