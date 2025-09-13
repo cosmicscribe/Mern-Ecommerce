@@ -1,45 +1,47 @@
-# 🛒 MERN E-Commerce Website
+# 🛍️ MERN E-Commerce Project
 
-Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
+![MERN Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
 
-## ✨ Features
+A **MERN-based E-commerce web application** developed as part of our **Industrial Training Project**.  
+The project provides a complete shopping experience for customers along with an admin dashboard for management.
 
-### 🌟 User Frontend:
+---
 
-- **🔒 Secure Authentication**: Register, login, and manage user profiles effortlessly.
-- **🛍️ Product Exploration**: Browse and search through an extensive product catalog with advanced filtering options.
-- **🛒 Shopping Cart**: Add products to your cart, modify quantities, and proceed to a hassle-free checkout.
-- **💳 Seamless Payments**: Make secure payments using Stripe integration.
-- **📦 Order Management**: View order history, track deliveries, and manage returns with ease.
+## 🚀 Features
 
-### ⚙️ Admin Dashboard:
+### Customer Side
+- User registration and login
+- Browse and search products
+- Add products to cart
+- Place orders and checkout
 
-- **🛠️ Product Management**: Add, update, or delete products with a user-friendly interface.
-- **📂 Category Management**: Organize products into categories for better navigation.
-- **📑 Order Management**: View, process, and update orders efficiently.
-- **👥 User Management**: Manage user roles and access levels.
+### Admin Side
+- Admin login
+- Manage products (add, edit, delete)
+- View customer orders
+- Manage users
+
+---
 
 ## 🛠️ Tech Stack
+- **Frontend** → React.js  
+- **Backend** → Node.js + Express.js  
+- **Database** → MongoDB  
 
-- **MongoDB**: Robust NoSQL database for storing all application data.
-- **Express.js**: Fast and minimalistic backend framework.
-- **React.js**: Modern frontend library for building dynamic user interfaces.
-- **Node.js**: JavaScript runtime environment for running the backend.
-- **Stripe**: Integrated payment gateway for processing transactions.
-- **JWT**: JSON Web Tokens for secure user sessions.
+---
 
-## 🗂️ Folder Structure
+## 📂 Project Structure
 
-```plaintext
-/
-|-- admin/            # React.js admin frontend code
-|-- backend/          # Node.js backend code (Express.js)
-|-- frontend/         # React.js frontend code
-|-- .gitignore        # Files and folders to be ignored by Git
-|-- README.md         # Project documentation
+```
+Mern-Ecommerce-master/
+│── frontend/        # Customer-facing React app
+│── backend/         # Node.js + Express API
+│── admin/           # Admin Dashboard (React)
 ```
 
-## 🤸 Quick Start
+---
+
+## ⚡ Installation & Setup
 
 Follow these steps to set up the project locally on your machine.
 
@@ -107,42 +109,43 @@ VITE_BACKEND_URL = "http://localhost:4000"
 
 </details>
 
-Replace the placeholder values with your actual Appwrite credentials.
+Replace the placeholder values with your actual Appwrite credentials. add this
 
-**Running the Project**
-
-**Admin Dashboard Running On:**
-
+1️⃣ Clone the Repository  
 ```bash
-cd admin
+git clone https://github.com/your-username/Mern-Ecommerce.git
+cd Mern-Ecommerce-master
 ```
 
-```bash
-npm run dev
-```
-
-**Backend Running On:**
-
+2️⃣ Install Dependencies  
 ```bash
 cd backend
+npm install
+npm start
 ```
-
-```bash
-npm run server
-```
-
-**Frontend Running On:**
 
 ```bash
 cd frontend
-```
-
-```bash
+npm install
 npm run dev
 ```
 
-Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
+```bash
+cd admin
+npm install
+npm run dev
+```
 
-Open [http://localhost:400](http://localhost:400) in your browser to run the backend.
+---
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
+## 👨‍💻 Team Members
+
+- **Shreya Das** – Brainware University  
+- **Krishan Mohan Singh** – Brainware University  
+- **Anirban Mondal** – Brainware University  
+- **Riya Kumari** – CEMK  
+- **Arzoo Aftab** – BBIT
+
+---
+
+
