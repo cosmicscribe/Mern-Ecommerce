@@ -44,6 +44,74 @@ Mern-Ecommerce-master/
 
 ## ⚡ Installation & Setup
 
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [NPM](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+<details>
+<summary><code>/admin/.env</code></summary>
+
+```env
+VITE_BACKEND_URL = "http://localhost:4000"
+```
+
+</details>
+
+<details>
+<summary><code>/backend/.env</code></summary>
+
+```env
+MONGODB_URI =
+
+CLOUDINARY_API_KEY =
+
+CLOUDINARY_SECRET_KEY =
+
+CLOUDINARY_CLOUD_NAME =
+
+JWT_SECRET =
+
+ADMIN_EMAIL = "admin@trendify.com" #For testing only
+
+ADMIN_PASSWORD = "admin@123" #For testing only
+
+```
+
+</details>
+
+<details>
+<summary><code>/frontend/.env</code></summary>
+
+```env
+VITE_BACKEND_URL = "http://localhost:4000"
+```
+
+</details>
+
+Replace the placeholder values with your actual Appwrite credentials. add this
+
 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/Mern-Ecommerce.git
