@@ -77,7 +77,7 @@ npm run dev
 - **Krishan Mohan Singh** – Brainware University  
 - **Anirban Mondal** – Brainware University  
 - **Riya Kumari** – CEMK  
-- **Arzoo Aftab** – BBIT  
+- **Arzoo Aftab** – BBIT
 
 ---
 
