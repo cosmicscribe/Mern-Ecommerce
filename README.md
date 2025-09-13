@@ -136,7 +136,7 @@ npm run dev
 ![Admin Orders Page 2](screenshots/admin-orders-2.png)
 
 #### Add Items
-![Admin Add Items Page](screenshots/admin-add-items.png)
+<img width="1893" height="867" alt="Image" src="https://github.com/user-attachments/assets/5c1002df-6112-403c-8cca-fbe10d55af0c" />
 
 > (You can add more screenshots here for the user frontend as well.)
 
