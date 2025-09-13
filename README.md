@@ -132,13 +132,11 @@ npm run dev
 ### 🖥️ Admin Panel
 
 #### View Orders
-![Admin Orders Page 1](screenshots/admin-orders-1.png)
-![Admin Orders Page 2](screenshots/admin-orders-2.png)
-
+<img width="1897" height="867" alt="Image" src="https://github.com/user-attachments/assets/6ca51ca7-87b0-4f64-94da-80e634c6d52e" />
+#### List Items
+<img width="1896" height="866" alt="Image" src="https://github.com/user-attachments/assets/40f01dd3-83f4-47d0-aa1b-06aaee3deb15" />
 #### Add Items
 <img width="1893" height="867" alt="Image" src="https://github.com/user-attachments/assets/5c1002df-6112-403c-8cca-fbe10d55af0c" />
-
-> (You can add more screenshots here for the user frontend as well.)
 
 
 ---
