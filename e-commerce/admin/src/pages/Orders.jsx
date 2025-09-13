@@ -94,10 +94,6 @@ const Orders = ({ token }) => {
               <p>Payment : {order.payment ? 'Done' : 'Pending'}</p>
               <p>Date : {new Date(order.date).toLocaleDateString()}</p>
             </div>
-            {/* <p className="text-sm sm-text-[15px]">
-              {currency}
-              {order.amount} $
-            </p> */}
             <p className="text-sm sm-text-[15px]">
               {Number(order.amount).toLocaleString("en-IN", {
                 style: "currency",
