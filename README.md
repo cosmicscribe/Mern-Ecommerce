@@ -81,38 +81,4 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-### 🖥️ Admin Panel
-#### View Orders
-<img src="https://github.com/user-attachments/assets/6ca51ca7-87b0-4f64-94da-80e634c6d52e" width="800"/>
-
-#### List Items
-<img src="https://github.com/user-attachments/assets/40f01dd3-83f4-47d0-aa1b-06aaee3deb15" width="800"/>
-
-#### Add Items
-<img src="https://github.com/user-attachments/assets/5c1002df-6112-403c-8cca-fbe10d55af0c" width="800"/>
-
----
-
-### 🌐 Website Interface
-#### 🏠 Home Page
-<img src="https://github.com/user-attachments/assets/b15bfb4e-2606-4aff-aba6-58e3344797b8" width="800"/>
-
-#### 📄 Product Details
-<img src="https://github.com/user-attachments/assets/f7b34524-f10e-4c02-bee2-c8d7456501cb" width="800"/>
-
-#### 🛍️ Shopping Cart
-<img src="https://github.com/user-attachments/assets/7389a86a-cc18-4aca-aa9f-066e259b3657" width="800"/>
-
-#### 💳 Payment Mode
-<img src="https://github.com/user-attachments/assets/7ed04cde-5a86-44df-a9e2-b3803d2df156" width="800"/>
-
-
-
-#### 👤 Login / Signup
-<img src="https://github.com/user-attachments/assets/f5d26ba5-0856-476f-8212-2873872e9ad8" width="800"/>
-
----
-
 
