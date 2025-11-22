@@ -1,152 +1,110 @@
+🛍️ MERN E-Commerce Project
 
-# 🛍️ MERN E-Commerce Project
+A full-stack MERN E-Commerce application developed as part of our Industrial Training Project.
+It includes a complete customer shopping experience and a powerful admin dashboard for product & order management.
 
-![MERN Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
+🔗 Live Project Links
+Platform	Link
+🛒 Store (Frontend)	https://mern-ecommerce-7t6x.vercel.app/
 
-A **MERN-based E-commerce web application** developed as part of our **Industrial Training Project**.  
-The project provides a complete shopping experience for customers along with an admin dashboard for management.
+🔐 Admin Dashboard	https://trendify-admin-zeta.vercel.app/
+🔐 Admin Demo Credentials
+Email: admin@gmail.com
+Password: admin123
 
----
+🚀 Features
+🧑‍💻 Customer Side
 
-## 🚀 Features
+User Authentication (Register/Login)
 
-### Customer Side
-- User registration and login
-- Browse and search products
-- Add products to cart
-- Place orders and checkout
+Browse & Search Products
 
-### Admin Side
-- Admin login
-- Manage products (add, edit, delete)
-- View customer orders
-- Manage users
+Add to Cart
 
----
+Place Orders & Checkout
 
-## 🛠️ Tech Stack
-- **Frontend** → React.js  
-- **Backend** → Node.js + Express.js  
-- **Database** → MongoDB  
+🛠️ Admin Side
 
----
+Admin Login
 
-## 📂 Project Structure
+Add, Edit, Delete Products
 
-```
+View & Manage Customer Orders
+
+Manage Users
+
+🛠️ Tech Stack
+
+Frontend → React.js (Vite)
+
+Backend → Node.js + Express.js
+
+Database → MongoDB
+
+Media Storage → Cloudinary
+
+📂 Project Structure
 Mern-Ecommerce-master/
-│── frontend/        # Customer-facing React app
-│── backend/         # Node.js + Express API
-│── admin/           # Admin Dashboard (React)
-```
+│── frontend/         # Customer-facing React app
+│── backend/          # Node.js + Express API
+│── admin/            # Admin Dashboard (React)
 
----
+⚡ Installation & Setup Guide
 
-## ⚡ Installation & Setup
+Follow the steps below to run the project locally.
 
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [NPM](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-<details>
-<summary><code>/admin/.env</code></summary>
-
-```env
-VITE_BACKEND_URL = "http://localhost:4000"
-```
-
-</details>
-
-<details>
-<summary><code>/backend/.env</code></summary>
-
-```env
-MONGODB_URI =
-
-CLOUDINARY_API_KEY =
-
-CLOUDINARY_SECRET_KEY =
-
-CLOUDINARY_CLOUD_NAME =
-
-JWT_SECRET =
-
-ADMIN_EMAIL = "admin@trendify.com" #For testing only
-
-ADMIN_PASSWORD = "admin@123" #For testing only
-
-```
-
-</details>
-
-<details>
-<summary><code>/frontend/.env</code></summary>
-
-```env
-VITE_BACKEND_URL = "http://localhost:4000"
-```
-
-</details>
-
-Replace the placeholder values with your actual Appwrite credentials. add this
-
-1️⃣ Clone the Repository  
-```bash
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/Mern-Ecommerce.git
 cd Mern-Ecommerce-master
-```
 
-2️⃣ Install Dependencies  
-```bash
+2️⃣ Backend Setup
 cd backend
 npm install
 npm start
-```
 
-```bash
+3️⃣ Frontend Setup (Store)
 cd frontend
 npm install
 npm run dev
-```
 
-```bash
+4️⃣ Admin Panel Setup
 cd admin
 npm install
 npm run dev
-```
 
----
+🔑 Environment Variables
 
-## 👨‍💻 Team Members
+Create .env files in each folder as shown below:
 
-- **Shreya Das** – Brainware University  
-- **Krishan Mohan Singh** – Brainware University  
-- **Anirban Mondal** – Brainware University  
-- **Riya Kumari** – CEMK  
-- **Arzoo Aftab** – BBIT
+📌 /admin/.env
+VITE_BACKEND_URL="http://localhost:4000"
 
----
+📌 /backend/.env
+MONGODB_URI=
+
+CLOUDINARY_API_KEY=
+CLOUDINARY_SECRET_KEY=
+CLOUDINARY_CLOUD_NAME=
+
+JWT_SECRET=
+
+ADMIN_EMAIL="admin@trendify.com"
+ADMIN_PASSWORD="admin@123"
+
+📌 /frontend/.env
+VITE_BACKEND_URL="http://localhost:4000"
 
 
+⚠️ Replace placeholder values with your actual MongoDB, Cloudinary, and JWT credentials.
+
+👨‍💻 Team Members
+
+Shreya Das – Brainware University
+
+Krishan Mohan Singh – Brainware University
+
+Anirban Mondal – Brainware University
+
+Riya Kumari – CEMK
+
+Arzoo Aftab – BBIT
