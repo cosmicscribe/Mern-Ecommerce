@@ -1,85 +1,119 @@
-🛍️ MERN E-Commerce Project
+# 🛍️ MERN E-Commerce Project
 
-A full-stack MERN E-Commerce application developed as part of our Industrial Training Project.
-It includes a complete customer shopping experience and a powerful admin dashboard for product & order management.
+![MERN
+Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
 
-🔗 Live Project Links
-Platform	Link
-🛒 Store (Frontend)	https://mern-ecommerce-7t6x.vercel.app/
+A **full-stack MERN E-Commerce application** developed as part of our
+**Industrial Training Project**.\
+It includes a complete customer shopping experience and a powerful admin
+dashboard for product & order management.
 
-🔐 Admin Dashboard	https://trendify-admin-zeta.vercel.app/
-🔐 Admin Demo Credentials
-Email: admin@gmail.com
-Password: admin123
+------------------------------------------------------------------------
 
-🚀 Features
-🧑‍💻 Customer Side
+## 🔗 Live Project Links
 
-User Authentication (Register/Login)
+  Platform                  Link
+  ------------------------- -----------------------------------------
+  🛒 **Store (Frontend)**   https://mern-ecommerce-7t6x.vercel.app/
+  🔐 **Admin Dashboard**    https://trendify-admin-zeta.vercel.app/
 
-Browse & Search Products
+------------------------------------------------------------------------
 
-Add to Cart
+## 🔐 Admin Demo Credentials
 
-Place Orders & Checkout
+    Email: admin@gmail.com
+    Password: admin123
 
-🛠️ Admin Side
+------------------------------------------------------------------------
 
-Admin Login
+## 🚀 Features
 
-Add, Edit, Delete Products
+### 🧑‍💻 Customer Side
 
-View & Manage Customer Orders
+-   User Authentication (Register/Login)
+-   Browse & Search Products
+-   Add to Cart
+-   Place Orders & Checkout
 
-Manage Users
+### 🛠️ Admin Side
 
-🛠️ Tech Stack
+-   Admin Login
+-   Add, Edit, Delete Products
+-   View & Manage Customer Orders
+-   Manage Users
 
-Frontend → React.js (Vite)
+------------------------------------------------------------------------
 
-Backend → Node.js + Express.js
+## 🛠️ Tech Stack
 
-Database → MongoDB
+-   **Frontend** → React.js (Vite)
+-   **Backend** → Node.js + Express.js
+-   **Database** → MongoDB
+-   **Media Storage** → Cloudinary
 
-Media Storage → Cloudinary
+------------------------------------------------------------------------
 
-📂 Project Structure
-Mern-Ecommerce-master/
-│── frontend/         # Customer-facing React app
-│── backend/          # Node.js + Express API
-│── admin/            # Admin Dashboard (React)
+## 📂 Project Structure
 
-⚡ Installation & Setup Guide
+    Mern-Ecommerce-master/
+    │── frontend/         # Customer-facing React app
+    │── backend/          # Node.js + Express API
+    │── admin/            # Admin Dashboard (React)
 
-Follow the steps below to run the project locally.
+------------------------------------------------------------------------
 
-1️⃣ Clone the Repository
+# ⚡ Installation & Setup Guide
+
+## 1️⃣ Clone the Repository
+
+``` bash
 git clone https://github.com/your-username/Mern-Ecommerce.git
 cd Mern-Ecommerce-master
+```
 
-2️⃣ Backend Setup
+------------------------------------------------------------------------
+
+## 2️⃣ Backend Setup
+
+``` bash
 cd backend
 npm install
 npm start
+```
 
-3️⃣ Frontend Setup (Store)
+------------------------------------------------------------------------
+
+## 3️⃣ Frontend Setup (Store)
+
+``` bash
 cd frontend
 npm install
 npm run dev
+```
 
-4️⃣ Admin Panel Setup
+------------------------------------------------------------------------
+
+## 4️⃣ Admin Panel Setup
+
+``` bash
 cd admin
 npm install
 npm run dev
+```
 
-🔑 Environment Variables
+------------------------------------------------------------------------
 
-Create .env files in each folder as shown below:
+# 🔑 Environment Variables
 
-📌 /admin/.env
+## 📌 `/admin/.env`
+
+``` env
 VITE_BACKEND_URL="http://localhost:4000"
+```
 
-📌 /backend/.env
+## 📌 `/backend/.env`
+
+``` env
 MONGODB_URI=
 
 CLOUDINARY_API_KEY=
@@ -90,21 +124,20 @@ JWT_SECRET=
 
 ADMIN_EMAIL="admin@trendify.com"
 ADMIN_PASSWORD="admin@123"
+```
 
-📌 /frontend/.env
+## 📌 `/frontend/.env`
+
+``` env
 VITE_BACKEND_URL="http://localhost:4000"
+```
 
+------------------------------------------------------------------------
 
-⚠️ Replace placeholder values with your actual MongoDB, Cloudinary, and JWT credentials.
+# 👨‍💻 Team Members
 
-👨‍💻 Team Members
-
-Shreya Das – Brainware University
-
-Krishan Mohan Singh – Brainware University
-
-Anirban Mondal – Brainware University
-
-Riya Kumari – CEMK
-
-Arzoo Aftab – BBIT
+-   **Shreya Das** -- Brainware University
+-   **Krishan Mohan Singh** -- Brainware University
+-   **Anirban Mondal** -- Brainware University
+-   **Riya Kumari** -- CEMK
+-   **Arzoo Aftab** -- BBIT
