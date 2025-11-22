@@ -123,7 +123,7 @@ CLOUDINARY_CLOUD_NAME=
 JWT_SECRET=
 
 ADMIN_EMAIL="admin@gmail.com"
-ADMIN_PASSWORD="admin@123"
+ADMIN_PASSWORD="admin123"
 ```
 
 ## 📌 `/frontend/.env`
