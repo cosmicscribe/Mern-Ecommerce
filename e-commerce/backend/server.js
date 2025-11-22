@@ -10,7 +10,10 @@ import orderRouter from "./routes/orderRoute.js";
 
 // INFO: Create express app mern stack
 const app = express();
-const port = process.env.PORT;
+
+// 🟢 CHANGE MADE HERE: Added "|| 4000" as a fallback
+const port = process.env.PORT || 4000;
+
 connectDB();
 connectCloudinary();
 
@@ -21,8 +24,9 @@ app.use(cors());
 // INFO: API endpoints
 app.use("/api/user", userRouter);
 app.use("/api/product", productRouter);
-app.use('/api/cart',cartRouter)
-app.use('/api/order',orderRouter)
+app.use('/api/cart', cartRouter)
+app.use('/api/order', orderRouter)
+
 // INFO: Default route
 app.get("/", (req, res) => {
   res.send("API is running...");
@@ -30,5 +34,5 @@ app.get("/", (req, res) => {
 
 // INFO: Start server
 app.listen(port, () =>
-  console.log(`Server is running on at http://localhost:${port}`)
+  console.log(`Server is running at http://localhost:${port}`)
 );
